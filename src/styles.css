@@ -1,0 +1,38 @@
+body {
+    margin: 2%;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+	width:180px;
+	padding:10px 10px;
+	border:1px solid #b0b0b0;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+.ejercicio-7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#cuadro-color {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
